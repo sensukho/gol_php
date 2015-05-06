@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include_once("gol.php");
+include_once("Game_Of_Life.php");
 
 $gol = new Game_Of_Life( 50 );
 

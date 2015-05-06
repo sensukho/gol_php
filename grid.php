@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include_once("gol.php");
+include_once("Game_Of_Life.php");
 
 $gol = new Game_Of_Life( (isset($_GET['grid_size']) )? $_GET['grid_size'] : null );
 
